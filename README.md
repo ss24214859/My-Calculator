@@ -12,23 +12,18 @@ This project was built as part of practical training while studying desktop appl
 
 ## 🏗 System Architecture
 
-The project follows a **3-Tier Architecture**:
-
+This is a **Single Tier Architecture** application:
 1. **Presentation Layer**
-
    * Windows Forms UI
    * Calculator interface
    * Numeric keypad layout
-
-2. **Business Logic Layer (BLL)**
-
+2. **Application Logic**
    * Arithmetic operations
-   * Operation calculation
-   * Result display
-
-3. **Data Access Layer (DAL)**
-
-   * None (client-side application)
+   * Result calculations
+   * Error handling
+3. **Data Storage**
+   * None (client-side calculation only)
+   * Memory-based operation
 
 ---
 
@@ -58,22 +53,6 @@ The project follows a **3-Tier Architecture**:
 
 ---
 
-## ⚙️ Installation & Setup
-
-1️⃣ Clone the repository
-
-```bash
-git clone https://github.com/ss24214859/Course-Abu-Hadhoud.git
-```
-
-2️⃣ Open the solution file in Visual Studio.
-
-3️⃣ Build and run the project.
-
-4️⃣ Start calculating!
-
----
-
 ## 📷 Screenshots
 
 ### ➕ Addition Operation
@@ -94,6 +73,22 @@ git clone https://github.com/ss24214859/Course-Abu-Hadhoud.git
 
 ---
 
+## ⚙️ Installation & Setup
+
+1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/ss24214859/My-Calculator.git
+```
+
+2️⃣ Open the solution file in Visual Studio.
+
+3️⃣ Build and run the project.
+
+4️⃣ Start calculating!
+
+---
+
 ## 🚀 Future Enhancements
 
 * Scientific functions (sin, cos, tan, etc.)
@@ -107,7 +102,7 @@ git clone https://github.com/ss24214859/Course-Abu-Hadhoud.git
 
 ## 👨‍💻 Author
 
-**Student**
+**Mohamed Shaaban**
 
 * GitHub: [https://github.com/ss24214859](https://github.com/ss24214859)
 
